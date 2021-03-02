@@ -1,7 +1,7 @@
 let contador
 
 if (contador == null){
-    contador = 0
+    contador == 0
     localStorage.setItem ("contador", JSON.stringify(contador))
     console.log("no existe")
 } else {
