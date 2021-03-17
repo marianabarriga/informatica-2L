@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Tareas</title>
+    <style>
+      body {
+        color:black;
+        background-color: mediumaquamarine;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <form action="formularioAdd">
+        Materia:
+        <input type="text" name="materia"/>
+        Descripción tarea:
+        <input type="text" name="descripción"/>
+        Fecha tarea:
+        <input type="date" name="fecha"/>
+        <input type= "submit"/>
+    </form>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Materia</th>
+                <th scope="col">Descripción tarea</th>
+                <th scope="col">Fecha</th>
+
+            </tr>
+        </thead>
+    </table>
+    <table id="tareas"></table>
+    <script src="tareas.js"></script>
+</body>
+</html>
+
+   
