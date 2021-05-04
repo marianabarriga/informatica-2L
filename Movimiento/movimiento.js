@@ -34,14 +34,14 @@ function animar(){
     ctx.clearRect(0,0, 800, 800);
     let dX = (dT/1000) * vX;
     x = x + dX;
-    dibujarPeon(x, y, 30,"Thistle");
+    dibujarPeon(x, y, 30,"Purple");
     let dY = (dT/1000) * vY1;
     y1 = y1 + dY;
-    dibujarPeon(x1, y1, 30,"MediumSpringGreen");
+    dibujarPeon(x1, y1, 30,"Pink");
     let dXY = (dT/1000) * v2;
     x2 = x2 - dXY;
     y2 = y2 + dXY;
-    dibujarPeon(x2, y2, 30,"Gainsboro");
+    dibujarPeon(x2, y2, 30,"Black");
 }
 
 window.setInterval(animar, dT);
