@@ -2,7 +2,7 @@ let canvas = document.querySelector("#movimiento")
 
 let ctx = canvas.getContext("2d")
 
-ctx.lineWidth= 2
+ctx.lineWidth= 1
 
 function dibujarPeon (xC, yC, tam, color) {
     ctx.fillStyle = color
