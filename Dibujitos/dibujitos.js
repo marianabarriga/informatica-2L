@@ -33,5 +33,4 @@ ctx.fillStyle = "black"
 ctx.fillRect(17,65,150,250)
 ctx.fillStyle = "grey"
 ctx.fillRect(25,70,135,225)
-ctx.fillarc(300, 300, 45, Math.PI*0, 2*Math.PI,);
 ctx.endPath()
