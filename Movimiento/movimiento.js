@@ -21,27 +21,27 @@ function dibujarPeon (xC, yC, tam, color) {
     }
 
 let x = 0;
-let y = 200;
-let vX = 40;
 let x1 = 200;
-let y1 = 0;
-let vY1 = 200;
 let x2 = 400;
+let vX = 40;
+let y = 200;
+let y1 = 0;
 let y2 = 0;
+let vY1 = 200;
 let v2 = 100;
 let dT = 5;
 function animar(){
     ctx.clearRect(0,0, 800, 800);
     let dX = (dT/1000) * vX;
     x = x + dX;
-    dibujarPeon(x, y, 30,);
+    dibujarPeon(x, y, 30,"black");
     let dY = (dT/1000) * vY1;
     y1 = y1 + dY;
-    dibujarPeon(x1, y1, 30,);
+    dibujarPeon(x1, y1, 30,"black");
     let dXY = (dT/1000) * v2;
     x2 = x2 - dXY;
     y2 = y2 + dXY;
-    dibujarPeon(x2, y2, 30,);
+    dibujarPeon(x2, y2, 30,"black");
 }
 
 window.setInterval(animar, dT);
